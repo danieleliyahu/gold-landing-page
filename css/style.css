@@ -231,6 +231,11 @@ header span {
   flex-direction: column;
   color: white;
 }
+@media (min-width: 655px) and (max-width: 1015px) {
+  .botSection {
+    height: 115vh;
+  }
+}
 
 .botForm {
   display: flex;
